@@ -15,7 +15,7 @@ const Footer = () => {
     <Box bgColor={'#6925c5'} minH={'40'} p={16} color={'white'}>
       <Stack direction={['column', 'row']}>
         <VStack alignItems={'stretch'} w="full">
-          <Heading size="md" textTransform={'uppercase'} textAlign = {['center','left']}>
+          <Heading fontSize={['20','36']} size="md" textTransform={'uppercase'} textAlign = {['center','left']}>
             Subscribe to get updates
           </Heading>
           <HStack>
@@ -35,7 +35,7 @@ const Footer = () => {
           borderLeft={['none', '1px solid aliceblue']}
           borderRight={['none', '1px solid aliceblue']}
               >
-                  <Heading>My Social Media</Heading>
+                  <Heading fontSize={['20','36']} >My Social Media</Heading>
                   <Button variant={'outline'} colorScheme={'aliceblue'}>
                       <a href="https://github.com/ravimishra730" target="blank">Github</a>
                     </Button>

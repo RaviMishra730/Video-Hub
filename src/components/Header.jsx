@@ -47,10 +47,10 @@ const { isOpen, onOpen, onClose } = useDisclosure()
                         </VStack>
                         <HStack>
                             <Button m={30} colorScheme = {"purple"} >
-                                <Link>Log IN </Link>
+                                <Link to={'./Login'} >Log In</Link>
                             </Button>
-                            <Button variant={'outline'} >
-                                <Link> Sign UP </Link>
+                            <Button variant={'outline'}>
+                                <Link to = {'./SignUp'}>Sign Up</Link>
                             </Button>
                         </HStack>
                     </DrawerBody>
