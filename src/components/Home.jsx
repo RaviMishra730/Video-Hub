@@ -43,15 +43,15 @@ const Home = () => {
 const MyCarousel = () => (
     <Carousel autoPlay infiniteLoop interval={1000} showStatus={false} showThumbs={false} showArrows={false}>
         <Box w="full" h={'100vh'}>
-            <Image src={img1} />
+            <Image src={img1} h = "full" w = "full" objectFit={'cover'} />
             <Heading bgColor={'blackAlpha.600'} color = {'white'} {...headingOptions}>Gaming is Future</Heading>
         </Box>
         <Box w="full" h={'100vh'}>
-            <Image src={img6} />
+            <Image src={img6} h = "full" w = "full" objectFit={'cover'} />
             <Heading bgColor={'blackAlpha.600'} color = {'white'}{...headingOptions}>Gaming is Future</Heading>
         </Box>
         <Box w="full" h={'100vh'}>
-            <Image src={img8} />
+            <Image src={img8} h = "full" w = "full" objectFit={'cover'} />
             <Heading bgColor={'blackAlpha.600'} color = {'white'}{...headingOptions}>Gaming On console</Heading>
         </Box>
     </Carousel>

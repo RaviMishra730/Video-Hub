@@ -7,6 +7,7 @@ import Videos from './components/Videos';
 import Upload from './components/Upload';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
+import Youtube from './components/Youtube';
 function App() {
   return (
     <Router>
@@ -18,6 +19,7 @@ function App() {
         <Route path = '/Upload' element = {<Upload/>} />
         <Route path = '/Login' element = {<Login/>} />
         <Route path = '/SignUp' element = {<SignUp/>} />
+        <Route path = '/Youtube' element = {<Youtube/>} />
       </Routes>
       <Footer/>
     </Router>
